@@ -501,6 +501,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
+#about .section-header {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+}
+
 #about .about-img {
   height: 510px;
   overflow: hidden;
