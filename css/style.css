@@ -16,6 +16,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: #00ADEF;
   transition: 0.5s;
@@ -624,6 +628,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #advanced-features .features-row {
   padding: 60px 0 30px 0;
+}
+
+#advanced-features .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  border: 2px solid #00c4ee;
+  color: #00c4ee;
+}
+
+#advanced-features .cta-btn:hover {
+  background: #00ADEF;
+  color: #fff;
 }
 
 #advanced-features h2 {
