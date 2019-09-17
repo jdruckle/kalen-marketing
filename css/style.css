@@ -1047,16 +1047,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-#contact .contact-about h3 {
-  font-size: 36px;
-  margin: 0 0 10px 0;
-  padding: 0;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #00ADEF;
+#contact .contact-about img {
+  max-height: 100px;
 }
 
 #contact .contact-about p {
