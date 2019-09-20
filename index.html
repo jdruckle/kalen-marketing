@@ -206,48 +206,48 @@
     </section><!-- #call-to-action -->
 
     <!--==========================
-    More Features Section
+    More Features Section (see script at bottom of page)
     ============================-->
     <section id="more-features" class="section-bg">
       <div class="container">
 
-        <div class="section-header">
-          <h3 class="section-title">4 Steps to Success</h3>
+        <div class="section-header text-center">
+          <h3 class="section-title">Choose the Right Tools</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">There are a lot of tools in the marketplace designed to help businesses reach their marketing & financial goals. However, not all tools are created equal. Some tools can cost-effectively help your business grow, while others will actually deteriorate the brand of your business making you dependent on faulty methods. While it’s easy to make price the most important metric, remember that there are dozens of other metrics that matter – including features, customer reviews, scalability, capabilities, and more.</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-6">
-            <div class="box">
+            <div class="box" id="box1">
               <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
-              <h4 class="title">Lorem Ipsum</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+              <h4 class="title">Coordinate Marketing & Sales</h4>
+              <p class="description">One of the biggest mistakes businesses make is not communicating their efforts to their teams. This lack of coordination often results in potential customers confused and frustrated when a sales team is not aware of a specific promotion.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="box">
+            <div class="box" id="box2">
               <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-              <h4 class="title">Dolor Sitema</h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+              <h4 class="title">Solution</h4>
+              <p class="description">Establish a protocol for communicating new marketing promotions and how each team member should respond when a current or potential customer brings them up.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="box">
+            <div class="box" id="box3">
               <div class="icon"><i class="ion-ios-heart-outline"></i></div>
-              <h4 class="title">Sed ut perspiciatis</h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+              <h4 class="title">Know What To Automate</h4>
+              <p class="description">There are a multitude of programs available that will automate everything from your email communication to social media responses. Knowing what systems are best to automate and which are best to hand off to personnel is vital to your business' success.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="box">
+            <div class="box" id="box4">
               <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title">Magni Dolores</h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+              <h4 class="title">Track Your Results</h4>
+              <p class="description">Anytime you implement a new campaign or strategy, you need to ensure you’re tracking the results in an effort to understand what’s happening beneath the surface. The only issue is that tracking can take a lot of time & effort. However, skipping this step can cripple your ability to see which tactics worked, which need to be tweaked and which ones didn't measure up.</p>
             </div>
           </div>
 
@@ -372,6 +372,22 @@
 
     <!-- Template Main Javascript File -->
     <script src="js/main.js"></script>
+
+    <!-- Updates size of more-features boxes dynamically -->
+    <script>
+    if($("#box1").height() > $("#box2").height()) {
+      $("#box2").height($("#box1").height());
+    } else {
+      $("#box1").height($("#box2").height());
+    }
+    if($("#box4").height() > $("#box3").height()) {
+      $("#box3").height($("#box4").height());
+    } else {
+      $("#box3").height($("#box4").height());
+    }
+
+
+    </script>
 
   </body>
   </html>
