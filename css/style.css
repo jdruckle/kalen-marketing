@@ -791,6 +791,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 24px;
 }
 
+#more-features .section-header p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 /* Clients Section
 --------------------------------*/
 
